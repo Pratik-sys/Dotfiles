@@ -23,6 +23,4 @@ git clone https://github.com/Pratik2799/android_hardware_qcom_display -b pie har
 
 #Extra
 
-git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-16.0 packages/resources/devicesettings
-
 git clone https://github.com/Pratik2799/android_system_bt -b pie system/bt
