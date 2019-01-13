@@ -23,4 +23,4 @@ git clone https://github.com/Pratik2799/android_hardware_qcom_display -b pie har
 
 #Extra
 
-https://github.com/AospExtended/platform_system_bt -b 9.x system/bt
+git clone https://github.com/AospExtended/platform_system_bt -b 9.x system/bt
