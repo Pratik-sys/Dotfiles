@@ -26,6 +26,6 @@ git clone https://github.com/Pratik2799/android_hardware_qcom_display -b pie har
 
 git clone https://github.com/AospExtended/platform_system_bt -b 9.x system/bt
 
-git clone https://github.com/Pratik2799/android_packages_apps_HavocSettings -b pie packages/apps/HavocSettings
+git clone https://github.com/Pratik2799/android_packages_apps_HavocSettings -b p1 packages/apps/HavocSettings
 
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-16.0 packages/resources/devicesettings
