@@ -10,7 +10,7 @@ git clone https://github.com/Pratik2799/android_device_xiaomi_msm8956-common-1 -
 
 git clone https://github.com/Pratik2799/android_device_xiaomi_kenzo-1 -b pie device/xiaomi/kenzo
 
-git clone https://github.com/AmolAmrit/Escrima_kernel_xiaomi_msm8956 -b pie kernel/xiaomi/msm8956
+git clone https://github.com/Pratik2799/Escrima_kernel_xiaomi_msm8956 -b pie kernel/xiaomi/msm8956
 
 git clone https://github.com/AmolAmrit/proprietary_vendor_xiaomi-1 -b pie vendor/xiaomi
 
