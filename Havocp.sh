@@ -1,6 +1,9 @@
 rm -rf hardware/qcom/display-caf-msm8952
 rm -rf hardware/qcom/audio-caf-msm8952
 rm -rf hardware/qcom/media-caf-msm8952
+rm -rf system/bt
+rm -rf frameworks/av
+rm -rf packages/apps/HavocSettings
 
 #tress
 
@@ -23,3 +26,9 @@ git clone https://github.com/AmolAmrit/android_hardware_qcom_display -b pie hard
 #Extra
 
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-16.0 packages/resources/devicesettings
+
+git clone https://github.com/Pratik2799/android_packages_apps_HavocSettings -b pie1 packages/apps/HavocSettings
+
+git clone https://github.com/Pratik2799/android_system_bt -b pie system/bt
+
+git clone https://github.com/Pratik2799/android_frameworks_av -b pie frameworks/av
