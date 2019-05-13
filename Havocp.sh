@@ -2,11 +2,10 @@ rm -rf hardware/qcom/display-caf-msm8952
 rm -rf hardware/qcom/audio-caf-msm8952
 rm -rf hardware/qcom/media-caf-msm8952
 rm -rf packages/apps/Dirac
-rm -rf packages/apps/ThermalController
 
 #tress
 
-git clone https://github.com/Pratik2799/android_device_xiaomi_msm8956-common-1 -b pie device/xiaomi/msm8956-common
+git clone https://github.com/Pratik2799/android_device_xiaomi_msm8956-common-1 -b p1 device/xiaomi/msm8956-common
 
 git clone https://github.com/Pratik2799/android_device_xiaomi_kenzo-1 -b pie device/xiaomi/kenzo
 
