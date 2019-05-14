@@ -5,7 +5,7 @@ rm -rf packages/apps/Dirac
 
 #tress
 
-git clone https://github.com/Pratik2799/android_device_xiaomi_msm8956-common-1 -b p1 device/xiaomi/msm8956-common
+git clone https://github.com/Pratik2799/android_device_xiaomi_msm8956-common-1 -b pie device/xiaomi/msm8956-common
 
 git clone https://github.com/Pratik2799/android_device_xiaomi_kenzo-1 -b pie device/xiaomi/kenzo
 
