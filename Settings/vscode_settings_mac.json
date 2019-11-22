@@ -1,3 +1,7 @@
+/* - These configs are really helpful for vscode enviroment  setup 
+   - Same configs can be used in linux. 
+   - Adjust the values as per the need.
+ */
 {
     "workbench.colorTheme": "Darkside Contrast (rainglow)",
     "workbench.iconTheme": "material-icon-theme",
