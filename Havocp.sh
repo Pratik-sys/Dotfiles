@@ -8,9 +8,9 @@ rm -rf frameworks/native
 
 #tress
 
-git clone https://github.com/Pratik2799/android_device_xiaomi_msm8956-common-1 -b pie device/xiaomi/msm8956-common
+git clone https://github.com/Pratik-sys/android_device_xiaomi_msm8956-common-1 -b pie device/xiaomi/msm8956-common
 
-git clone https://github.com/Pratik2799/android_device_xiaomi_kenzo-1 -b pie device/xiaomi/kenzo
+git clone https://github.com/Pratik-sys/android_device_xiaomi_kenzo-1 -b pie device/xiaomi/kenzo
 
 git clone https://github.com/AmolAmrit/Escrima_kernel_xiaomi_msm8956 -b pie kernel/xiaomi/msm8956
 
@@ -28,8 +28,8 @@ git clone https://github.com/AmolAmrit/android_hardware_qcom_display -b pie hard
 
 git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-16.0 packages/resources/devicesettings
 
-git clone https://github.com/Pratik2799/android_packages_apps_HavocSettings -b pie packages/apps/HavocSettings
+git clone https://github.com/Pratik-sys/android_packages_apps_HavocSettings -b pie packages/apps/HavocSettings
 
-git clone https://github.com/Pratik2799/android_frameworks_native -b pie frameworks/native
+git clone https://github.com/Pratik-sys/android_frameworks_native -b pie frameworks/native
 
-git clone https://github.com/Pratik2799/android_frameworks_av -b pie frameworks/av
+git clone https://github.com/Pratik-sys/android_frameworks_av -b pie frameworks/av
