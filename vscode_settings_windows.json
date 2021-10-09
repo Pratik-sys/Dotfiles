@@ -8,18 +8,11 @@
     "terminal.integrated.fontSize": 13.5,
     "terminal.integrated.fontWeight": "300",
     "window.zoomLevel": 0,
-    "python.pythonPath": "/usr/local/bin/python",
+    "python.pythonPath": "<windowspath>",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "code-runner.executorMap": {
-        "python": "$pythonPath -u $fullFileName"
-    },
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false,
-    "code-runner.ignoreSelection": true,
-    "code-runner.saveFileBeforeRun": true,
     "[plaintext]": {
         "editor.quickSuggestions": false
     },
@@ -36,5 +29,5 @@
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
     "git.autofetch": true,
-    "git.autorefresh": true,
+    "git.autorefresh": true
 }
