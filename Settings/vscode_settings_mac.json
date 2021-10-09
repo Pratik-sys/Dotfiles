@@ -1,8 +1,4 @@
-/* - These configs are really helpful for vscode enviroment  setup 
-   - Same configs can be used in linux. 
-   - Adjust the values as per the need.
- */
-{
+ {
     "workbench.colorTheme": "Darkside Contrast (rainglow)",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 14.5,
@@ -14,24 +10,14 @@
     "terminal.integrated.fontSize": 14.5,
     "terminal.integrated.fontWeight": "500",
     "files.autoSave": "afterDelay",
-    "terminal.integrated.shell.osx": "/bin/zsh",
     "window.zoomLevel": 0,
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "python.pythonPath": "/usr/local/bin/python3",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "code-runner.executorMap": {
-        "javascript": "node",
-        "python": "$pythonPath -u $fullFileName",
-    },
-    "code-runner.showExecutionMessage": false,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.ignoreSelection": true,
-    "code-runner.saveFileBeforeRun": true,
     "[plaintext]": {
         "editor.quickSuggestions": true
     },
@@ -47,9 +33,8 @@
     "terminal.external.osxExec": "iterm.app",
     "terminal.external.linuxExec": "iterm",
     "explorer.confirmDelete": false,
-    "[markdown]": {
-        "editor.defaultFormatter": "fcrespo82.markdown-table-formatter"
-    },
     "git.autofetch": true,
     "git.confirmSync": false,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
 }
