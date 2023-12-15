@@ -1,5 +1,4 @@
- {
-    "workbench.colorTheme": "Darkside Contrast (rainglow)",
+{
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 14.5,
     "editor.fontWeight": "500",
@@ -10,31 +9,38 @@
     "terminal.integrated.fontSize": 14.5,
     "terminal.integrated.fontWeight": "500",
     "files.autoSave": "afterDelay",
-    "window.zoomLevel": 0,
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
     "[plaintext]": {
-        "editor.quickSuggestions": true
+      "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+      }
     },
     "editor.quickSuggestionsDelay": 100,
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
     "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
     "editor.minimap.enabled": false,
-    "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
     "editor.wordWrap": "on",
-    "terminal.external.osxExec": "iterm.app",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
     "terminal.external.linuxExec": "iterm",
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "git.confirmSync": false,
     "terminal.integrated.defaultProfile.osx": "zsh",
-    "python.defaultInterpreterPath": "/usr/local/bin/python3"
-}
+    "editor.inlineSuggest.enabled": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true
+    },
+    "update.showReleaseNotes": false,
+    "workbench.colorTheme": "GitHub Dark Default"
+  }
